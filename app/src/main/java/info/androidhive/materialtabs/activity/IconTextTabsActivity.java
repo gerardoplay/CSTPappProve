@@ -17,7 +17,7 @@ import info.androidhive.materialtabs.R;
 import info.androidhive.materialtabs.fragments.OneFragment;
 import info.androidhive.materialtabs.fragments.ThreeFragment;
 import info.androidhive.materialtabs.fragments.TwoFragment;
-
+// prova commit
 public class IconTextTabsActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
@@ -35,8 +35,10 @@ public class IconTextTabsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_icon_text_tabs);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+       // toolbar.setTitle("prova");
         setSupportActionBar(toolbar);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);//tasto indietro sulla toolbar
+       // toolbar.inflateMenu(R.menu.menu_main);
 
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
