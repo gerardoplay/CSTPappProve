@@ -17,7 +17,7 @@ import info.androidhive.materialtabs.R;
 import info.androidhive.materialtabs.fragments.OneFragment;
 import info.androidhive.materialtabs.fragments.ThreeFragment;
 import info.androidhive.materialtabs.fragments.TwoFragment;
-// prova commit
+// prova commit 2
 public class IconTextTabsActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
